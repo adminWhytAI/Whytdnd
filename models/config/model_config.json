@@ -1,0 +1,41 @@
+{
+  "gguf_model": {
+    "name": "mistral-7b-instruct-v0.2",
+    "path": "models/gguf/mistral-7b-instruct-v0.2.Q4_K_M.gguf",
+    "context_size": 8192,
+    "threads": 8,
+    "gpu_layers": -1,
+    "default_params": {
+      "temperature": 0.8,
+      "top_p": 0.9,
+      "top_k": 40,
+      "repeat_penalty": 1.1,
+      "max_tokens": 512
+    },
+    "special_tokens": {
+      "system_start": "[INST]",
+      "system_end": "[/INST]",
+      "user_start": "[INST]",
+      "user_end": "[/INST]"
+    }
+  },
+  "embedding_model": {
+    "name": "paraphrase-multilingual-MiniLM-L12-v2",
+    "path": "models/embeddings/",
+    "device": "cpu"
+  },
+  "development_model": {
+    "name": "tinyllama-1.1b-chat",
+    "path": "models/gguf/tinyllama-1.1b-chat-q4_k_m.gguf",
+    "context_size": 2048,
+    "threads": 4,
+    "gpu_layers": 0,
+    "default_params": {
+      "temperature": 0.9,
+      "top_p": 0.9,
+      "top_k": 40,
+      "repeat_penalty": 1.15,
+      "max_tokens": 256
+    }
+  }
+}

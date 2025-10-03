@@ -1,0 +1,24 @@
+Événement : "Le personnage a vaincu un dragon"
+
+↓ Le système génère UNE ENTRÉE DE JOURNAL basée sur :
+
+- Race : "En tant que nain, les dragons sont nos ennemis ancestraux"
+- Stats : Intelligence 8 → réflexion simple vs Intelligence 18 → analyse profonde
+- Personnalité : Brave/Lâche, Fier/Humble
+- Background : Soldat → "C'était comme mes batailles d'avant"
+- Alignement : Bon/Mauvais → perception morale différente
+- État émotionnel actuel
+- Relation avec compagnons présents
+
+↓ Génère une entrée journal :
+
+"Journal - Jour 47
+
+Aujourd'hui, nous avons affronté le dragon rouge. Mes mains tremblaient
+en empoignant ma hache - mais pas de peur, de rage ancestrale. Chaque
+nain porte la haine des dragons dans son sang. Quand la bête est tombée,
+je n'ai ressenti aucune joie, juste... du soulagement. Thorin a failli
+mourir. J'aurais dû le protéger mieux.
+
+Mon père disait toujours : 'Un nain sans son clan n'est rien.'
+Ces aventuriers sont mon clan maintenant."
