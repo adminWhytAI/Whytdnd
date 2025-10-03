@@ -10,7 +10,7 @@
 
 ---
 
-## Phase 0 : Setup Initial (Semaine 1) - 80% ✅
+## Phase 0 : Setup Initial (Semaine 1) - 85% ✅
 
 ### Environment Setup
 - [x] ✅ Créer structure dossiers backend
@@ -49,14 +49,23 @@
 - [x] ✅ backend/scripts/download_mistral.py
 - [x] ✅ backend/scripts/test_model.py
 
+### Git Setup
+- [x] ✅ git init
+- [x] ✅ git add + commit (46 fichiers, 95,782 lignes)
+- [ ] ⏳ Créer repo GitHub et push
+
 ---
 
-## Phase 1 : Documentation Immersive (Semaine 2) 🔥
+## Phase 1 : Documentation Immersive (Semaine 2) 🔥 - 11% EN COURS
+
+**Objectif** : 46 fichiers immersifs en première personne
+**Créés** : 5/46 (~10,800 mots)
+**Progression** : 11%
 
 ### Création Documentation Immersive
 
-#### Races (13 fichiers)
-- [x] ✅ Being_A_Dwarf_Mountain.md
+#### Races (13 fichiers) - 1/13 créé
+- [x] ✅ Being_A_Dwarf_Mountain.md (2,800 mots)
 - [ ] 📝 Being_A_Dwarf_Hill.md
 - [ ] 📝 Being_An_Elf_High.md
 - [ ] 📝 Being_An_Elf_Wood.md
@@ -70,8 +79,8 @@
 - [ ] 📝 Being_A_Half_Orc.md
 - [ ] 📝 Being_A_Tiefling.md
 
-#### Classes (12 fichiers)
-- [x] ✅ Being_A_Fighter.md
+#### Classes (12 fichiers) - 1/12 créé
+- [x] ✅ Being_A_Fighter.md (2,200 mots)
 - [ ] 📝 Being_A_Wizard.md
 - [ ] 📝 Being_A_Rogue.md
 - [ ] 📝 Being_A_Cleric.md
@@ -84,8 +93,8 @@
 - [ ] 📝 Being_A_Sorcerer.md
 - [ ] 📝 Being_A_Warlock.md
 
-#### Stats (12 fichiers)
-- [x] ✅ Having_High_Strength.md (16+)
+#### Stats (12 fichiers) - 2/12 créés
+- [x] ✅ Having_High_Strength.md (16+) (1,800 mots)
 - [ ] 📝 Having_Average_Strength.md (10-15)
 - [ ] 📝 Having_Low_Strength.md (6-9)
 - [ ] 📝 Having_High_Dexterity.md
@@ -93,14 +102,14 @@
 - [ ] 📝 Having_High_Constitution.md
 - [ ] 📝 Having_Low_Constitution.md
 - [ ] 📝 Having_High_Intelligence.md
-- [x] ✅ Having_Low_Intelligence.md
+- [x] ✅ Having_Low_Intelligence.md (1,600 mots)
 - [ ] 📝 Having_High_Wisdom.md
 - [ ] 📝 Having_Low_Wisdom.md
 - [ ] 📝 Having_High_Charisma.md
 - [ ] 📝 Having_Low_Charisma.md
 
-#### Alignments (9 fichiers)
-- [x] ✅ Living_Lawful_Good.md
+#### Alignments (9 fichiers) - 1/9 créé
+- [x] ✅ Living_Lawful_Good.md (2,400 mots)
 - [ ] 📝 Living_Neutral_Good.md
 - [ ] 📝 Living_Chaotic_Good.md
 - [ ] 📝 Living_Lawful_Neutral.md
@@ -110,36 +119,61 @@
 - [ ] 📝 Living_Neutral_Evil.md
 - [ ] 📝 Living_Chaotic_Evil.md
 
+### Suivi Phase 1
+
+**Fichiers créés** : 5/46 (11%)
+**Mots écrits** : ~10,800
+**Temps investi** : ~1h15
+**Fichiers tracking** : PHASE1_PROGRESS.md créé
+
+**Prochaines priorités** :
+- Being_A_Human.md (race populaire)
+- Being_An_Elf_High.md (race populaire)
+- Being_A_Wizard.md (classe populaire)
+- Being_A_Rogue.md (classe populaire)
+- Having_High_Intelligence.md (contraste avec Low)
+
 ---
 
-## Phase 2 : Backend - Parsing & Rules (Semaine 3)
+## Phase 2 : Backend - Parsing & Rules (Semaine 3) - 🚧 EN COURS
 
 ### Knowledge Parser Module
 
-#### Rule Parser
-- [ ] ⏳ Créer backend/knowledge_parser/rule_parser.py
-  - [ ] Classe RaceParser
-  - [ ] Classe ClassParser
-  - [ ] Classe RuleExtractor
-  - [ ] Fonction parse_races_from_md()
-  - [ ] Fonction parse_classes_from_md()
-  - [ ] Fonction extract_mechanics()
-- [ ] ⏳ Créer backend/knowledge_parser/data_validator.py
-  - [ ] Schéma Pydantic RaceSchema
-  - [ ] Schéma Pydantic ClassSchema
-  - [ ] Validateurs customs
+#### Rule Parser ✅ COMPLÉTÉ
+- [x] ✅ Créer backend/knowledge_parser/rule_parser.py
+  - [x] ✅ Classe RaceParser
+  - [x] ✅ Classe ClassParser
+  - [x] ✅ Classe RuleExtractor
+  - [x] ✅ Fonction parse_races_from_md()
+  - [x] ✅ Fonction parse_classes_from_md()
+  - [x] ✅ Fonction extract_mechanics()
+  
+- [x] ✅ Créer backend/knowledge_parser/data_validator.py
+  - [x] ✅ Schéma Pydantic RaceSchema
+  - [x] ✅ Schéma Pydantic ClassSchema
+  - [x] ✅ Schéma Pydantic CharacterCreate
+  - [x] ✅ Schéma Pydantic AbilityScores
+  - [x] ✅ Schéma Pydantic KnowledgeFragment
+  - [x] ✅ Validateurs customs
 
-#### Immersive Parser
-- [ ] ⏳ Créer backend/knowledge_parser/immersive_parser.py
-  - [ ] Classe ImmersiveDocParser
-  - [ ] Classe FragmentExtractor
-  - [ ] Fonction parse_immersive_docs()
-  - [ ] Fonction extract_first_person_content()
+#### Immersive Parser ✅ COMPLÉTÉ
+- [x] ✅ Créer backend/knowledge_parser/immersive_parser.py
+  - [x] ✅ Classe ImmersiveDocParser
+  - [x] ✅ Classe FragmentExtractor
+  - [x] ✅ Fonction parse_immersive_docs()
+  - [x] ✅ Fonction extract_first_person_content()
+  - [x] ✅ Métadonnées extraction
+  - [x] ✅ Section splitting
 
-#### Génération Rules Database
-- [ ] ⏳ Script setup: parse_all_rules.py
-- [ ] ⏳ Générer data/rules_database.json
-- [ ] ⏳ Valider structure JSON générée
+#### Génération Rules Database ✅ COMPLÉTÉ
+- [x] ✅ Script setup: backend/scripts/parse_all_rules.py
+  - [x] ✅ Parse technical documentation
+  - [x] ✅ Parse immersive documentation
+  - [x] ✅ Generate alignments data
+  - [x] ✅ Generate ability scores data
+  - [x] ✅ Build complete database
+  - [x] ✅ Save to JSON with validation
+- [ ] ⏳ Générer data/rules_database.json (run script)
 - [ ] ⏳ Tests unitaires parsers
 
 ---
