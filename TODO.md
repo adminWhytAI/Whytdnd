@@ -15,7 +15,7 @@
 ### Environment Setup
 - [x] ✅ Créer structure dossiers backend
 - [ ] ⏳ Créer structure dossiers frontend
-- [x] 🚧 Initialiser git repository - EN COURS
+- [x] ✅ Initialiser git repository
 - [x] ✅ Créer .gitignore (Python + Node)
 - [ ] ⏳ Setup virtual environment Python
 - [x] ✅ Installer dépendances backend (requirements.txt)
