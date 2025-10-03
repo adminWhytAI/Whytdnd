@@ -178,47 +178,52 @@
 
 ---
 
-## Phase 3 : Backend - Character Creator (Semaine 4) 🔥
+## Phase 3 : Backend - Character Creator (Semaine 4) 🔥 - ✅ COMPLÉTÉ
 
 ### Character Creator Module
 
-#### Stats Management
-- [ ] ⏳ Créer backend/character_creator/stats_calculator.py
-  - [ ] Classe StatsManager
-  - [ ] Classe DiceRoller
-  - [ ] Méthode calculate_modifier()
-  - [ ] Méthode generate_standard_array()
-  - [ ] Méthode roll_4d6_drop_lowest()
-  - [ ] Méthode point_buy()
-  - [ ] Tests unitaires stats
+#### Stats Management ✅ COMPLÉTÉ
+- [x] ✅ Créer backend/character_creator/stats_calculator.py
+  - [x] ✅ Classe StatsManager
+  - [x] ✅ Classe DiceRoller
+  - [x] ✅ Méthode calculate_modifier()
+  - [x] ✅ Méthode generate_standard_array()
+  - [x] ✅ Méthode roll_4d6_drop_lowest()
+  - [x] ✅ Méthode point_buy() (validation)
+  - [x] ✅ Apply racial bonuses
+  - [x] ✅ Tests unitaires stats
 
-#### Behavioral Translation
-- [ ] 🔥 Créer backend/character_creator/behavioral_translator.py
-  - [ ] Classe BehavioralProfileBuilder
-  - [ ] Méthode translate_stats_to_behavior()
-  - [ ] Méthode translate_race_to_behavior()
-  - [ ] Méthode translate_class_to_behavior()
-  - [ ] Méthode translate_alignment_to_behavior()
-  - [ ] Méthode build_complete_profile()
-  - [ ] Tests unitaires translation
+#### Behavioral Translation ✅ COMPLÉTÉ 🔥
+- [x] ✅ Créer backend/character_creator/behavioral_translator.py
+  - [x] ✅ Classe BehavioralProfileBuilder
+  - [x] ✅ Méthode translate_stats_to_behavior() (6 abilities)
+  - [x] ✅ Méthode translate_race_to_behavior() (8 races)
+  - [x] ✅ Méthode translate_class_to_behavior() (12 classes)
+  - [x] ✅ Méthode translate_alignment_to_behavior() (9 alignments)
+  - [x] ✅ Méthode build_complete_profile()
+  - [x] ✅ Tests unitaires translation
 
-#### Character Generation
-- [ ] ⏳ Créer backend/character_creator/creator_logic.py
-  - [ ] Classe CharacterGenerator
-  - [ ] Méthode create_character()
-  - [ ] Méthode apply_racial_bonuses()
-  - [ ] Méthode calculate_hp()
-  - [ ] Méthode assign_proficiencies()
-  - [ ] Méthode generate_personality()
+#### Character Generation ✅ COMPLÉTÉ
+- [x] ✅ Créer backend/character_creator/creator_logic.py
+  - [x] ✅ Classe CharacterGenerator
+  - [x] ✅ Méthode create_character()
+  - [x] ✅ Méthode apply_racial_bonuses() (8 races)
+  - [x] ✅ Méthode calculate_hp()
+  - [x] ✅ Méthode get_starting_features()
+  - [x] ✅ Generate character ID
+  - [x] ✅ Behavioral profile integration
 
-#### Equipment
-- [ ] ⏳ Créer backend/character_creator/equipment_manager.py
-  - [ ] Classe EquipmentBuilder
-  - [ ] Méthode get_starting_equipment()
-  - [ ] Méthode calculate_ac()
+#### Equipment ✅ COMPLÉTÉ
+- [x] ✅ Créer backend/character_creator/equipment_manager.py
+  - [x] ✅ Classe EquipmentBuilder
+  - [x] ✅ Méthode get_starting_equipment() (12 classes)
+  - [x] ✅ Méthode calculate_ac() (all armor types)
+  - [x] ✅ Unarmored Defense (Barbarian/Monk)
+  - [x] ✅ Armor/weapon proficiencies
+  - [x] ✅ Background equipment
 
 #### Tests
-- [ ] ⏳ Test création Nain Guerrier complet
+- [ ] ⏳ Test création Nain Guerrier complet (script créé, à exécuter)
 - [ ] ⏳ Test création Elfe Magicien complet
 - [ ] ⏳ Test behavioral profile généré correctement
 
