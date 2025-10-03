@@ -56,7 +56,7 @@
 ### Création Documentation Immersive
 
 #### Races (13 fichiers)
-- [ ] 📝 Being_A_Dwarf_Mountain.md
+- [x] ✅ Being_A_Dwarf_Mountain.md
 - [ ] 📝 Being_A_Dwarf_Hill.md
 - [ ] 📝 Being_An_Elf_High.md
 - [ ] 📝 Being_An_Elf_Wood.md
@@ -71,7 +71,7 @@
 - [ ] 📝 Being_A_Tiefling.md
 
 #### Classes (12 fichiers)
-- [ ] 📝 Being_A_Fighter.md
+- [x] ✅ Being_A_Fighter.md
 - [ ] 📝 Being_A_Wizard.md
 - [ ] 📝 Being_A_Rogue.md
 - [ ] 📝 Being_A_Cleric.md
@@ -85,7 +85,7 @@
 - [ ] 📝 Being_A_Warlock.md
 
 #### Stats (12 fichiers)
-- [ ] 📝 Having_High_Strength.md (16+)
+- [x] ✅ Having_High_Strength.md (16+)
 - [ ] 📝 Having_Average_Strength.md (10-15)
 - [ ] 📝 Having_Low_Strength.md (6-9)
 - [ ] 📝 Having_High_Dexterity.md
@@ -93,14 +93,14 @@
 - [ ] 📝 Having_High_Constitution.md
 - [ ] 📝 Having_Low_Constitution.md
 - [ ] 📝 Having_High_Intelligence.md
-- [ ] 📝 Having_Low_Intelligence.md
+- [x] ✅ Having_Low_Intelligence.md
 - [ ] 📝 Having_High_Wisdom.md
 - [ ] 📝 Having_Low_Wisdom.md
 - [ ] 📝 Having_High_Charisma.md
 - [ ] 📝 Having_Low_Charisma.md
 
 #### Alignments (9 fichiers)
-- [ ] 📝 Living_Lawful_Good.md
+- [x] ✅ Living_Lawful_Good.md
 - [ ] 📝 Living_Neutral_Good.md
 - [ ] 📝 Living_Chaotic_Good.md
 - [ ] 📝 Living_Lawful_Neutral.md
