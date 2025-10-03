@@ -1,0 +1,24 @@
+Event: "The character defeated a dragon"
+
+↓ The system generates A JOURNAL ENTRY based on:
+
+- Race: "As a dwarf, dragons are our ancestral enemies"
+- Stats: Intelligence 8 → simple reflection vs Intelligence 18 → deep analysis
+- Personality: Brave/Coward, Proud/Humble
+- Background: Soldier → "It was like my battles before"
+- Alignment: Good/Evil → different moral perception
+- Current emotional state
+- Relationship with present companions
+
+↓ Generates a journal entry:
+
+"Journal - Day 47
+
+Today, we faced the red dragon. My hands trembled
+as I gripped my axe - but not from fear, from ancestral rage. Every
+dwarf carries the hatred of dragons in their blood. When the beast fell,
+I felt no joy, just... relief. Thorin nearly
+died. I should have protected him better.
+
+My father always said: 'A dwarf without his clan is nothing.'
+These adventurers are my clan now."
